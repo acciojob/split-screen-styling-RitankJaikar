@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left navigation bar -->
+    <nav class="sidebar">
+      <h2>Navigation</h2>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Main content area -->
+    <div class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <h1>Website Header</h1>
+      </header>
+      
+      <!-- Content section (Article + Aside) -->
+      <section class="content">
+        <article class="article">
+          <h2>Article Title</h2>
+          <p>This is the article content section. It will take up 3/4th of the content area.</p>
+        </article>
+        
+        <aside class="aside">
+          <h3>Aside Section</h3>
+          <p>This is the aside section. It will take up 1/4th of the content area.</p>
+        </aside>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Website Footer</p>
+      </footer>
+    </div>
+  </div>
+</body>
 </html>
